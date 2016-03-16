@@ -1,5 +1,9 @@
 # README - OHDSP ADC-PCM4202-SE Release 1.0 #
 
+## Fatal Error ##
+
+This version of the PCM4202 ADC has a fatal error in the assignment of the DVDD and associated ground pin. They are the wrong way around, this board works if you lift these pins but a fixed revision of the board layout will be released.
+
 ## Disclaimer ##
 Copyright Paul Janicki 2016
 
