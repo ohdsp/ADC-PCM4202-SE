@@ -1,29 +1,38 @@
-# README - OHDSP ADC-PCM4202-SE Release 1.0 #
-
-## Fatal Error ##
-
-This version of the PCM4202 ADC has a fatal error in the assignment of the DVDD and associated ground pin. They are the wrong way around, this board works if you lift these pins but a fixed revision of the board layout will be released.
-
-## Disclaimer ##
+# [Open Hardware DSP Platform](www.ohdsp.org)
+## PCM4202 ADC with single ended inputs
+### Revision 1.1
+###### ADC-PCM4202-SE (KiCad 4.0.2-stable)
+---
+# README
+### Disclaimer
 Copyright Paul Janicki 2016
 
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
 
 This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
-### What is this repository? ###
+### What is this repository?
 
 **Quick summary**
 
-This is Release 1.0 of a single ended stereo input PCM4202 ADC. This is designed as part the Open Hardware DSP Platform.  
+This is a single ended stereo input PCM4202 ADC. This is designed as part the Open Hardware DSP Platform.  
 
 The PCM4202 is a hardware controlled Delta-Sigma ADC.
 
-This repository contains the KiCad design files (KiCad 4.0.1-stable), manufacturing Gerber/drill files and PDF outputs for this board.
+This repository contains the KiCad design files, manufacturing Gerber/drill files, and PDF/drawing files for this board.
+
+### What is the project folder structure?
+Starting from the top level: \
+*ADC-PCM4202-SE*
++ *Bill of Materials*  - This contains the bill of materials in CVS, LibreOffice Calc and XML formats
++ *Drawings*
+    + *PCB* - This contains SVG and PDF outputs of PCB copper layers and assembly drawings
+    + *Schematics* - This contains the PDF schematic drawing
++ *Gerbers* - This contains the PCB Gerbers and drill drawings for manufacture, there is also a zip file ready to send to most manufacturers
++ *KiCad* - This contains the original KiCad schematic and PCB design files
 
 
-### How do I get set up? ###
-(Note this is for KiCad releases upto and including 4.0.1-stable)
+### How do I get set up?
 
 **Summary of set up**
 
