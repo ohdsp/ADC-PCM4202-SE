@@ -1,4 +1,4 @@
-# [Open Hardware DSP Platform](www.ohdsp.org)
+# [Open Hardware DSP Platform](http://www.ohdsp.org)
 ## PCM4202 ADC with single ended inputs
 ### Revision 1.1
 ###### ADC-PCM4202-SE (KiCad 4.0.2-stable)
